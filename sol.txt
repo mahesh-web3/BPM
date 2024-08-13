@@ -1,0 +1,37 @@
+
+
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+contract Mapping {
+    // Mapping from address to uint
+    mapping(address => uint256) public myMap;
+
+    function get(address _addr) public view returns (uint256) {
+        // Mapping always returns
+
+
+
+
+
+
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.24;
+ contract mycontract{     
+    mapping(uint256 => string ) public names;  
+    mapping(uint256 => Book ) public books;     
+    
+     struct Book{        
+         string title;    
+         string author;   
+           }       
+
+    constructor() {    
+        names[1]="abc";       
+        names[2]="pqr";       
+        names[3]="xyz";  
+           }     
+        
+     function addBook(uint256 _id,string memory _title , string memory _a
